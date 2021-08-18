@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "${ARM}/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "STM32L432xx",
+            ],
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "${default}",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
